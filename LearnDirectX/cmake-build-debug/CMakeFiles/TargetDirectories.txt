@@ -1,0 +1,3 @@
+C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/cmake-build-debug/CMakeFiles/LearnDirectX.dir
+C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/cmake-build-debug/CMakeFiles/rebuild_cache.dir

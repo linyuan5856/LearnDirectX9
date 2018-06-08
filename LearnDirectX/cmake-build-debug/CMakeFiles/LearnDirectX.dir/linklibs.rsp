@@ -1,0 +1,1 @@
+ -LC:/Project/CLionProjects/LearnDirectX9/LearnDirectX/Lib/x86 -ld3d9 -ld3dx9 -ld3dx9d -lXInput -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
