@@ -24,6 +24,7 @@ struct Vertex {
 
 const DWORD Vertex::FVF = D3DFVF_XYZ;
 
+
 bool Setup() {
     Device->CreateVertexBuffer(8 * sizeof(Vertex), D3DUSAGE_WRITEONLY, Vertex::FVF, D3DPOOL_MANAGED, &VB, 0);
     Device->CreateIndexBuffer(36 * sizeof(WORD), D3DUSAGE_WRITEONLY, D3DFMT_INDEX16, D3DPOOL_MANAGED, &IB, 0);
@@ -41,42 +42,18 @@ bool Setup() {
 
     WORD *indices = 0;
     IB->Lock(0, 0, (void **) &indices, 0);
-    indices[0] = 0;
-    indices[1] = 1;
-    indices[2] = 2;
-    indices[3] = 0;
-    indices[4] = 2;
-    indices[5] = 3;
-    indices[6] = 4;
-    indices[7] = 6;
-    indices[8] = 5;
-    indices[9] = 4;
-    indices[10] = 7;
-    indices[11] = 6;
-    indices[12] = 4;
-    indices[13] = 5;
-    indices[14] = 1;
-    indices[15] = 4;
-    indices[16] = 1;
-    indices[17] = 0;
-    indices[18] = 3;
-    indices[19] = 2;
-    indices[20] = 6;
-    indices[21] = 3;
-    indices[22] = 6;
-    indices[23] = 7;
-    indices[24] = 1;
-    indices[25] = 5;
-    indices[26] = 6;
-    indices[27] = 1;
-    indices[28] = 6;
-    indices[29] = 2;
-    indices[30] = 4;
-    indices[31] = 0;
-    indices[32] = 3;
-    indices[33] = 4;
-    indices[34] = 3;
-    indices[35] = 7;
+    indices[0] = 0;indices[1] = 1;indices[2] = 2;
+    indices[3] = 0;indices[4] = 2;indices[5] = 3;
+    indices[6] = 4;indices[7] = 6;indices[8] = 5;
+    indices[9] = 4;indices[10] = 7;indices[11] = 6;
+    indices[12] = 4;indices[13] = 5;indices[14] = 1;
+    indices[15] = 4;indices[16] = 1;indices[17] = 0;
+    indices[18] = 3;indices[19] = 2;indices[20] = 6;
+    indices[21] = 3;indices[22] = 6;indices[23] = 7;
+    indices[24] = 1;indices[25] = 5;indices[26] = 6;
+    indices[27] = 1;indices[28] = 6;indices[29] = 2;
+    indices[30] = 4;indices[31] = 0;indices[32] = 3;
+    indices[33] = 4;indices[34] = 3;indices[35] = 7;
     IB->Unlock();
 
     D3DXVECTOR3 position(0.0f, 0.0f, -5.0f);

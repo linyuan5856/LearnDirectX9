@@ -88,6 +88,12 @@ d3dx9.h
 d3dx9.h
 ../include/d3dx9.h
 
+C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/ColorVertexExample.cpp
+iostream
+-
+d3dUtility.h
+C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.h
+
 C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.cpp
 iostream
 -
@@ -99,10 +105,4 @@ d3dx9.h
 -
 string
 -
-
-C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/main.cpp
-iostream
--
-d3dUtility.h
-C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.h
 

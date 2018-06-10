@@ -84,13 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/ColorVertexExample.cpp">
+			<Option target="LearnDirectX"/>
+		</Unit>
 		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.cpp">
 			<Option target="LearnDirectX"/>
 		</Unit>
 		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.h">
-			<Option target="LearnDirectX"/>
-		</Unit>
-		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/main.cpp">
 			<Option target="LearnDirectX"/>
 		</Unit>
 		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/CMakeLists.txt">

@@ -122,6 +122,33 @@ LearnDirectX/fast:
 	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/build
 .PHONY : LearnDirectX/fast
 
+ColorVertexExample.obj: ColorVertexExample.cpp.obj
+
+.PHONY : ColorVertexExample.obj
+
+# target to build an object file
+ColorVertexExample.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj
+.PHONY : ColorVertexExample.cpp.obj
+
+ColorVertexExample.i: ColorVertexExample.cpp.i
+
+.PHONY : ColorVertexExample.i
+
+# target to preprocess a source file
+ColorVertexExample.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.i
+.PHONY : ColorVertexExample.cpp.i
+
+ColorVertexExample.s: ColorVertexExample.cpp.s
+
+.PHONY : ColorVertexExample.s
+
+# target to generate assembly for a file
+ColorVertexExample.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.s
+.PHONY : ColorVertexExample.cpp.s
+
 d3dUtility.obj: d3dUtility.cpp.obj
 
 .PHONY : d3dUtility.obj
@@ -149,33 +176,6 @@ d3dUtility.cpp.s:
 	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.s
 .PHONY : d3dUtility.cpp.s
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +185,12 @@ help:
 	@echo ... LearnDirectX
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ColorVertexExample.obj
+	@echo ... ColorVertexExample.i
+	@echo ... ColorVertexExample.s
 	@echo ... d3dUtility.obj
 	@echo ... d3dUtility.i
 	@echo ... d3dUtility.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

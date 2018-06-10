@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LearnDirectX.dir/main.cpp.obj"
   "CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj"
+  "CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj"
   "LearnDirectX.pdb"
   "LearnDirectX.exe"
   "LearnDirectX.exe.manifest"
