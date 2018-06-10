@@ -81,8 +81,7 @@ bool d3d::InitD3D(HINSTANCE hInstance, int width, int height, bool windowed, D3D
     d3dpp.AutoDepthStencilFormat = D3DFMT_D24S8;//D24S8用24位表示深度并将8位保留供模板使用  
     d3dpp.Flags = 0;
     d3dpp.FullScreen_RefreshRateInHz = D3DPRESENT_RATE_DEFAULT;//刷新频率设为默认值  
-    d3dpp.PresentationInterval = D3DPRESENT_INTERVAL_IMMEDIATE;//当交换链中后台缓存切换到前台缓的时候最大速率设为立即提交  
-
+    d3dpp.PresentationInterval = D3DPRESENT_INTERVAL_IMMEDIATE;//当交换链中后台缓存切换到前台缓的时候最大速率设为立即提交
 
     //步骤 4：创建设备  
     hr = d3d9->CreateDevice(
@@ -132,5 +131,18 @@ int d3d::EnterMsgLoop(bool(*ptr_display)(float timeDelta)) {
         }
     }
     return msg.wParam;//来自一条表示退出的消息  
+}
+
+LRESULT  CALLBACK d3d::WndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam) {
+    switch (msg) {
+        case WM_DESTROY:
+            ::PostQuitMessage(0);
+            break;
+        case WM_KEYDOWN:
+            if (wparam == VK_ESCAPE)
+                ::DestroyWindow(hwnd);
+            break;
+    }
+    return ::DefWindowProc(hwnd, msg, wparam, lparam);
 }
 
