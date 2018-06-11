@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/ColorVertexExample.cpp" "C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/cmake-build-debug/CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj"
+  "C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/LightingExample.cpp" "C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/cmake-build-debug/CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj"
   "C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.cpp" "C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/cmake-build-debug/CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

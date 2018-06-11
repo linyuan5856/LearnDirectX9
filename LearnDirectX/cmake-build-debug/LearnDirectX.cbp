@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/ColorVertexExample.cpp">
+		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/LightingExample.cpp">
 			<Option target="LearnDirectX"/>
 		</Unit>
 		<Unit filename="C:/Project/CLionProjects/LearnDirectX9/LearnDirectX/d3dUtility.cpp">

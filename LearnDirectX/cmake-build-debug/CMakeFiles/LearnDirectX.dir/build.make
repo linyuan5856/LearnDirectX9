@@ -81,41 +81,41 @@ CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj.provides: CMakeFiles/LearnDirectX
 CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj.provides.build: CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj
 
 
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj: CMakeFiles/LearnDirectX.dir/flags.make
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj: CMakeFiles/LearnDirectX.dir/includes_CXX.rsp
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj: ../ColorVertexExample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnDirectX.dir\ColorVertexExample.cpp.obj -c C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\ColorVertexExample.cpp
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj: CMakeFiles/LearnDirectX.dir/flags.make
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj: CMakeFiles/LearnDirectX.dir/includes_CXX.rsp
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj: ../LightingExample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnDirectX.dir\LightingExample.cpp.obj -c C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\LightingExample.cpp
 
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\ColorVertexExample.cpp > CMakeFiles\LearnDirectX.dir\ColorVertexExample.cpp.i
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnDirectX.dir/LightingExample.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\LightingExample.cpp > CMakeFiles\LearnDirectX.dir\LightingExample.cpp.i
 
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\ColorVertexExample.cpp -o CMakeFiles\LearnDirectX.dir\ColorVertexExample.cpp.s
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnDirectX.dir/LightingExample.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\CLionProjects\LearnDirectX9\LearnDirectX\LightingExample.cpp -o CMakeFiles\LearnDirectX.dir\LightingExample.cpp.s
 
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.requires:
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.requires:
 
-.PHONY : CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.requires
+.PHONY : CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.requires
 
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.provides: CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.provides.build
-.PHONY : CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.provides
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.provides: CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.provides.build
+.PHONY : CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.provides
 
-CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.provides.build: CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj
+CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.provides.build: CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj
 
 
 # Object files for target LearnDirectX
 LearnDirectX_OBJECTS = \
 "CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj" \
-"CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj"
+"CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj"
 
 # External object files for target LearnDirectX
 LearnDirectX_EXTERNAL_OBJECTS =
 
 LearnDirectX.exe: CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj
-LearnDirectX.exe: CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj
+LearnDirectX.exe: CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj
 LearnDirectX.exe: CMakeFiles/LearnDirectX.dir/build.make
 LearnDirectX.exe: CMakeFiles/LearnDirectX.dir/linklibs.rsp
 LearnDirectX.exe: CMakeFiles/LearnDirectX.dir/objects1.rsp
@@ -129,7 +129,7 @@ CMakeFiles/LearnDirectX.dir/build: LearnDirectX.exe
 .PHONY : CMakeFiles/LearnDirectX.dir/build
 
 CMakeFiles/LearnDirectX.dir/requires: CMakeFiles/LearnDirectX.dir/d3dUtility.cpp.obj.requires
-CMakeFiles/LearnDirectX.dir/requires: CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj.requires
+CMakeFiles/LearnDirectX.dir/requires: CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj.requires
 
 .PHONY : CMakeFiles/LearnDirectX.dir/requires
 

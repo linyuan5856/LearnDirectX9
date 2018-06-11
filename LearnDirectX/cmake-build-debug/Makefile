@@ -122,32 +122,32 @@ LearnDirectX/fast:
 	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/build
 .PHONY : LearnDirectX/fast
 
-ColorVertexExample.obj: ColorVertexExample.cpp.obj
+LightingExample.obj: LightingExample.cpp.obj
 
-.PHONY : ColorVertexExample.obj
+.PHONY : LightingExample.obj
 
 # target to build an object file
-ColorVertexExample.cpp.obj:
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.obj
-.PHONY : ColorVertexExample.cpp.obj
+LightingExample.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/LightingExample.cpp.obj
+.PHONY : LightingExample.cpp.obj
 
-ColorVertexExample.i: ColorVertexExample.cpp.i
+LightingExample.i: LightingExample.cpp.i
 
-.PHONY : ColorVertexExample.i
+.PHONY : LightingExample.i
 
 # target to preprocess a source file
-ColorVertexExample.cpp.i:
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.i
-.PHONY : ColorVertexExample.cpp.i
+LightingExample.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/LightingExample.cpp.i
+.PHONY : LightingExample.cpp.i
 
-ColorVertexExample.s: ColorVertexExample.cpp.s
+LightingExample.s: LightingExample.cpp.s
 
-.PHONY : ColorVertexExample.s
+.PHONY : LightingExample.s
 
 # target to generate assembly for a file
-ColorVertexExample.cpp.s:
-	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/ColorVertexExample.cpp.s
-.PHONY : ColorVertexExample.cpp.s
+LightingExample.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnDirectX.dir\build.make CMakeFiles/LearnDirectX.dir/LightingExample.cpp.s
+.PHONY : LightingExample.cpp.s
 
 d3dUtility.obj: d3dUtility.cpp.obj
 
@@ -185,9 +185,9 @@ help:
 	@echo ... LearnDirectX
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ColorVertexExample.obj
-	@echo ... ColorVertexExample.i
-	@echo ... ColorVertexExample.s
+	@echo ... LightingExample.obj
+	@echo ... LightingExample.i
+	@echo ... LightingExample.s
 	@echo ... d3dUtility.obj
 	@echo ... d3dUtility.i
 	@echo ... d3dUtility.s

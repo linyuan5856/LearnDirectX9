@@ -146,3 +146,46 @@ LRESULT  CALLBACK d3d::WndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam
     return ::DefWindowProc(hwnd, msg, wparam, lparam);
 }
 
+D3DLIGHT9 d3d::InitDirectionalLight(D3DXVECTOR3 *direction, D3DCOLORVALUE *color) {
+    D3DLIGHT9 light;
+    ::ZeroMemory(&light,sizeof(light));
+
+    light.Type=D3DLIGHT_DIRECTIONAL;
+    light.Ambient=*color;
+    light.Diffuse=*color;
+    light.Specular=*color;
+    light.Direction=*direction;
+    return light;
+}
+
+D3DLIGHT9 d3d::InitPointLight(D3DXVECTOR3 *pos, D3DCOLORVALUE *color) {
+    D3DLIGHT9 light;
+    light.Type=D3DLIGHT_POINT;
+    light.Ambient=*color;
+    light.Diffuse=*color;
+    light.Specular=*color;
+    light.Position=*pos;
+    return light;
+}
+
+D3DLIGHT9 d3d::InitSpotLight(D3DXVECTOR3 *pos, D3DXVECTOR3 *direction, D3DCOLORVALUE*color) {
+    D3DLIGHT9 light;
+    light.Type=D3DLIGHT_SPOT;
+    light.Ambient=*color;
+    light.Diffuse=*color;
+    light.Specular=*color;
+    light.Position=*pos;
+    light.Direction=*direction;
+    return light;
+}
+
+
+D3DMATERIAL9 d3d::InitMaterial(D3DXCOLOR ambient, D3DXCOLOR diffuse, D3DXCOLOR specular, D3DXCOLOR emissive, float power) {
+    D3DMATERIAL9 material;
+    material.Ambient = ambient;
+    material.Diffuse = diffuse;
+    material.Specular = specular;
+    material.Emissive = emissive;
+    material.Power = power;
+    return material;
+}
